@@ -1,0 +1,105 @@
+body {
+  height:100%
+  padding: 0px;
+  margin:0px;
+}
+
+html {
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+#mainContainer{
+  height: 100%;
+  background-image: url(hex.jpeg);
+  background-blend-mode: lighten;
+  background-position: bottom;
+  background-color: black;
+}
+
+#logoBox{
+  width: 130px;
+  background-image: url(marvel_logo.png);
+  background-size: cover;
+  padding: 40px;
+  margin-left: 20px;
+  position: fixed;
+}
+
+#textSection{
+  height: 220px;
+  width: 100%;
+  background-image: url(https://static0.srcdn.com/wordpress/wp-content/uploads/2021/02/WandaVision-90s-Intro.jpg);
+  background-blend-mode: lighten;
+  background-color: #B92E30;
+  background-position: center;
+  position: fixed;
+  padding: 0px;
+  left:0px;
+  color: #000;
+  text-align: center;
+  font-family: "Verdana";font-style: italic;
+}
+
+#contentContainer{
+  padding-left: 250px;
+  padding-right: 250px;
+  height: 100%;
+}
+
+#headerSection{
+  height:160px;
+  width:100%;
+  text-align: center;
+  padding-top: 10px;
+  color: white;
+
+}
+h1{
+  margin: 10px;
+  color: #C61A23;
+}
+h3{
+  margin: 0px;
+}
+h4{
+  margin: 5px;
+}
+#mediaGallery{
+  height: 370px;
+  background-image: url(wandavision_bg.jpg);
+  background-color: black;
+}
+
+#navigationMenu{
+  height: 20px;
+  width: 100%;
+  background-image: url(https://static0.srcdn.com/wordpress/wp-content/uploads/2021/02/WandaVision-90s-Intro.jpg);
+  background-blend-mode: lighten;
+  background-position: bottom;
+  background-color: #B92E30;
+  position: relative;
+  font-style: normal;
+  padding: 20px;
+  }
+
+  .bottomButton {
+    background-image: url(static.jpg);
+    background-blend-mode: screen;
+    background-size: cover;
+    display: inline;
+    margin: 20px;
+    padding: 5px;
+    color: black;
+    font-weight: bolder;
+    border-style: dashed;
+  }
+
+  #imageGallery{
+    height: 300px;
+    width: 100%;
+  }
+h5{
+  margin:10px;
+}
