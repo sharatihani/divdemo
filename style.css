@@ -34,17 +34,19 @@ html {
   background-blend-mode: lighten;
   background-color: #B92E30;
   background-position: center;
-  position: fixed;
-  padding: 0px;
+  /* position: fixed; */
   left:0px;
   color: #000;
   text-align: center;
-  font-family: "Verdana";font-style: italic;
+  font-family: "Gill Sans";
+  padding-top: 2px;
+  margin-top: 2px;
+  font-style: italic;
 }
 
 #contentContainer{
-  padding-left: 250px;
-  padding-right: 250px;
+  /* padding-left: 250px;
+  padding-right: 250px; */
   height: 100%;
 }
 
@@ -62,9 +64,14 @@ h1{
 }
 h3{
   margin: 0px;
+  font-family: "Gill Sans"; font-weight: normal;
 }
 h4{
   margin: 5px;
+}
+h2{
+  font-family: "Gill Sans"; font-weight: normal;
+  position:relative; top: -20px;
 }
 #mediaGallery{
   height: 370px;
@@ -73,7 +80,7 @@ h4{
 }
 
 #navigationMenu{
-  height: 20px;
+  height: 50px;
   width: 100%;
   background-image: url(https://static0.srcdn.com/wordpress/wp-content/uploads/2021/02/WandaVision-90s-Intro.jpg);
   background-blend-mode: lighten;
@@ -81,7 +88,7 @@ h4{
   background-color: #B92E30;
   position: relative;
   font-style: normal;
-  padding: 20px;
+  /* padding: 20px; */
   }
 
   .bottomButton {
@@ -94,12 +101,31 @@ h4{
     color: black;
     font-weight: bolder;
     border-style: dashed;
+    position: relative; top: 15px;
   }
 
   #imageGallery{
-    height: 300px;
+    height: 1000px;
     width: 100%;
+    background-image: url(helicopter.jpeg);
+    background-blend-mode: lighten;
+    background-position: center;
+    background-color: black;
+    background-size: cover;
   }
-h5{
-  margin:10px;
-}
+
+  .thumbnail{
+  margin: 10px;
+  padding: 10px;
+  border-style: solid;
+  border-color: #B92E30;
+  position: relative; top: 10px;
+
+  }
+
+  h5{
+    margin:0px;
+    font-family: "Gill Sans";
+    color: #fff;
+    position: relative; top:10px;
+  }
